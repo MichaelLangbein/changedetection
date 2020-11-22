@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'changedetection';
+  clicked = 0;
+
+  onClick() {
+    this.clicked += 1;
+  }
 }
